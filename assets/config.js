@@ -1,1 +1,1 @@
-window.STUDIO_CONFIG = { email: "", phone: "" };
+window.STUDIO_CONFIG = { email: "zubajsamuel@gmail.com", phone: "" };

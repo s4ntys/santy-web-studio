@@ -1,19 +1,18 @@
-# Overenie projektu – 9. októbra 2026
+# Overenie redizajnu — 9. október 2026
 
-Automatické funkčné testy v Chromium: **73 kontrol úspešných, 0 JavaScript chýb**.
+123 automatizovaných kontrol úspešných, bez JavaScript chýb.
 
-- Všetkých 6 stránok: HTTP 200, hlavný nadpis, načítané lokálne fotografie.
-- Desktop 1440 px a mobil 390 px: bez horizontálneho pretekania; funkčné mobilné menu.
-- Autoservis: kalkulácia 35 + 45 = 80 €.
-- Autoservis, reštaurácia, salón a barber: validné formuláre ukončia simuláciu s jasným upozornením, že skutočná rezervácia nevznikla.
-- Reštaurácia: filter dezertov zobrazuje 2 jedlá; reset zobrazuje 6.
-- Salón: výber Laury aktualizuje stylistu v rezervácii.
-- Autodoplnky: vyhľadávanie, prázdny výsledok a kategórie.
-- Košík: pridanie produktov, súčet 62 €, zníženie množstva na 38 €, odstránenie produktu na 24 €, ukončenie demo nákupu a zatvorenie Escape.
-- Štúdio: výber balíka Business aktualizuje kontaktné zadanie; stiahnutie textového súboru funguje.
-- Kontrola interných odkazov a súborov: všetky ciele existujú.
-- Vizuálne skontrolovaný desktop hlavnej stránky a reštaurácie.
+- Všetkých 6 stránok na šírkach 320, 390, 768 a 1440 px: načítanie, jeden hlavný nadpis, dostupné obrázky, bez horizontálneho presahu.
+- Mobilné menu na všetkých stránkach pri 390 px.
+- Servisný kalkulátor: správny súčet za vybrané služby.
+- Všetky 4 rezervačné formuláre: lokálna simulácia, jasné potvrdenie bez skutočnej rezervácie.
+- Reštaurácia: filtrovanie jedálneho lístka a reset.
+- Salón: výber stylistu prenesený do rezervácie.
+- E-shop: vyhľadávanie, prázdny výsledok, kategórie, pridanie do košíka, súčet, zmena množstva, odstránenie položky a simulácia dokončenia bez platby. Escape zatvára košík.
+- Cenník prenáša vybraný balík do kontaktného formulára.
+- Kontakt zobrazuje správny mailto odkaz zubajsamuel@gmail.com a umožňuje stiahnuť zadanie projektu.
+- Režim zníženého pohybu vypína vstupné animácie.
+- Všetky vnútorné kotvy smerujú na existujúce sekcie.
+- Vizuálne skontrolované desktopové úvody všetkých stránok.
 
-Testovanie prebehlo lokálne. Verejné nasadenie a jeho následný test zatiaľ neboli vykonané: Cloudflare login v Cloud Browseri zobrazuje chybu overenia a blokuje prihlásenie.
-
-Pracovný e-mail štúdia nie je zadaný. Zatiaľ funguje stiahnutie zadania; po doplnení adresy do assets/config.js sa sprístupní e-mailový dopyt.
+Formulár priamo neposiela e-mail. Otvorí lokálnu e-mailovú aplikáciu, kde používateľ správu odošle.
