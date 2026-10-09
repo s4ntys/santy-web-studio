@@ -1,6 +1,6 @@
 # Overenie redizajnu — 9. október 2026
 
-123 automatizovaných kontrol úspešných, bez JavaScript chýb.
+138 automatizovaných kontrol úspešných, bez JavaScript chýb.
 
 - Všetkých 6 stránok na šírkach 320, 390, 768 a 1440 px: načítanie, jeden hlavný nadpis, dostupné obrázky, bez horizontálneho presahu.
 - Mobilné menu na všetkých stránkach pri 390 px.
@@ -16,3 +16,7 @@
 - Vizuálne skontrolované desktopové úvody všetkých stránok.
 
 Formulár priamo neposiela e-mail. Otvorí lokálnu e-mailovú aplikáciu, kde používateľ správu odošle.
+
+## Samostatné demo rozloženia
+
+Overené otvorené mobilné menu bez presahu, kroky servisného formulára vrátane návratu a kontroly údajov, modal reštaurácie, prepínanie úvodnej fotografie, lookbook salónu, exkluzívne otváranie barber služieb a rezervácia v bočnom paneli vrátane Escape. Každé demo používa vlastný CSS súbor a odlišnú skladbu stránky.

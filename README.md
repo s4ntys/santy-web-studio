@@ -5,12 +5,16 @@ Responzívne slovenské portfólio s piatimi samostatnými interaktívnymi konce
 Verejný web: https://s4ntys.github.io/santy-web-studio/
 Kontakt: zubajsamuel@gmail.com
 
+## Päť samostatných dizajnov
+
+Každé demo má vlastnú štruktúru HTML, navigáciu a súbor CSS. Zdieľa sa iba reset, formulárová prístupnosť, lokálne písma a funkčné simulácie.
+
 ## Ukážky
-- TORQ Garage: odhad ceny a simulácia objednania servisu.
-- Oliva Trattoria: filtrovaný jedálny lístok a simulácia rezervácie stola.
-- Élan Hair Atelier: výber stylistu a simulácia rezervácie.
-- Apex Auto Supply: vyhľadávanie, kategórie a funkčný demo košík.
-- Noir Barber Club: cenník a simulácia rezervácie.
+- TORQ Garage: servisný portál s bočnou navigáciou, kalkulátorom a objednaním v troch krokoch.
+- Oliva Trattoria: fotografický úvod s prepínačom, jedálny lístok a rezervácia v modálnom okne.
+- Élan Hair Atelier: módny magazín, lookbook, výber stylistu a rezervácia.
+- Apex Auto Supply: obchodný katalóg, vyhľadávanie v hlavičke, kategórie v bočnom paneli a košík.
+- Noir Barber Club: mestský plagátový dizajn, pohyblivý pás, rozbaľovacie služby a rezervačný panel.
 
 Všetky koncepty sú fiktívne. Rezervácie a nákupy neposielajú údaje na server a nevytvárajú objednávky. Fotografie sú generované ilustračné vizuály. Produkty používajú ilustračnú kolekciu doplnkov.
 
